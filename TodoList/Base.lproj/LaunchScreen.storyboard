@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chare_Chara" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9W-jz-Ub4">
+                                <rect key="frame" x="83" y="316" width="155" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="mC2-U3-dou"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="yuusha.png" translatesAutoresizingMaskIntoConstraints="NO" id="sdb-dR-BOo">
+                                <rect key="frame" x="106" y="180" width="108" height="120"/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.90334519989999995" blue="0.081148790289999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="sdb-dR-BOo" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="90" id="A7b-mS-FpM"/>
+                            <constraint firstItem="J9W-jz-Ub4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="I9f-14-pey"/>
+                            <constraint firstItem="sdb-dR-BOo" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="160" id="Y7m-MD-sky"/>
+                            <constraint firstItem="J9W-jz-Ub4" firstAttribute="top" secondItem="sdb-dR-BOo" secondAttribute="bottom" constant="16" id="aCI-cS-lZs"/>
+                            <constraint firstItem="J9W-jz-Ub4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="67" id="d3L-Mc-XAG"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="J9W-jz-Ub4" secondAttribute="bottom" constant="202" id="os4-8d-dOr"/>
+                            <constraint firstItem="sdb-dR-BOo" firstAttribute="centerX" secondItem="J9W-jz-Ub4" secondAttribute="centerX" id="rFJ-J8-fLZ"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="yuusha.png" width="128" height="128"/>
+    </resources>
+</document>
